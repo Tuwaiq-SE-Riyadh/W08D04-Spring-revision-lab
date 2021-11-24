@@ -17,7 +17,7 @@
         * title ==> type: string
         * pages ==> type: integer
         * price: ==> type: integer
-        * image ==> type: string
+
 
 
 * The user should be able to: 
