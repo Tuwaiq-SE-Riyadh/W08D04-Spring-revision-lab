@@ -48,7 +48,13 @@ public class Author {
     public void setAge(int age) {
         this.age = age;
     }
+    public String getNationality() {
+        return nationality;
+    }
 
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
     public String getGender() {
         return gender;
     }
@@ -57,13 +63,7 @@ public class Author {
         this.gender = gender;
     }
 
-    public String getNationality() {
-        return nationality;
-    }
 
-    public void setNationality(String nationality) {
-        this.nationality = nationality;
-    }
 }
 
 

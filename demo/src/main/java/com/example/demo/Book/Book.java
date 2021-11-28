@@ -1,7 +1,5 @@
 package com.example.demo.Book;
 
-import com.example.demo.Teacher.Teacher;
-import com.example.demo.User.User;
 
 
 import javax.persistence.*;
@@ -14,13 +12,13 @@ import java.util.Date;
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long evaluationId;
+    private Long BookId;
     private String title;
     private int pages;
     private int price;
 
-    public Book(Long evaluationId, String title, int pages, int price) {
-        this.evaluationId = evaluationId;
+    public Book(Long  BookId, String title, int pages, int price) {
+        this. BookId =  BookId;
         this.title = title;
         this.pages = pages;
         this.price = price;
@@ -29,11 +27,11 @@ public class Book {
     }
 
     public Long getEvaluationId() {
-        return evaluationId;
+        return  BookId;
     }
 
     public void setEvaluationId(Long evaluationId) {
-        this.evaluationId = evaluationId;
+        this. BookId = evaluationId;
     }
 
     public String getTitle() {
